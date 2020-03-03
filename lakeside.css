@@ -47,7 +47,7 @@ p {
 
 #showcase .bg-image {
     position: absolute;
-    background: #333 url('images/dog.jpg');
+    background: #333 url('images/dog2.jpg');
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,6 +95,10 @@ span::first-letter {
 
 #showcase .content-wrap {
     padding: 0 1.5em;
+}
+
+#showcase p {
+    padding-bottom: .1em;
 }
 
 /* section-a */
