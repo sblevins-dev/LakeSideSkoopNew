@@ -5,7 +5,7 @@ body {
     color: #fff;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
+    font-size: 1.1em;
     line-height: 1.5em;
 
 }
@@ -77,8 +77,8 @@ button:hover {
 
 #showcase h1 {
     font-size: 50px;
-    padding-top: 120px;
-    padding-bottom: 50px;
+    padding-top: 190px;
+    padding-bottom: 5px;
     font-family: fantasy,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -98,7 +98,7 @@ span::first-letter {
 }
 
 #showcase p {
-    padding-bottom: .1em;
+    padding: 0 auto;
 }
 
 /* section-a */
@@ -129,11 +129,6 @@ span::first-letter {
     margin-bottom: 1em;
     background: rgb(255, 255, 255);
     color: #333;
-}
-
-#section-b img :nth-child(2) {
-    width: 200px;
-    height: auto;
 }
 
 .card-content {
@@ -185,6 +180,11 @@ span::first-letter {
         position: absolute;
         padding-top: 300px;
     }
+
+    #showcase h1 {
+        padding-bottom: 1em;
+    }
+
     .grid {
         display: grid;
         grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
